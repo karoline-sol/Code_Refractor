@@ -4,7 +4,7 @@ This project refractors an existing webpage by replacing non-semantic HTML eleme
 with Semantic elements and optimizing the CSS for better structure and maintainability.
 
 Changes Made: 
-- Converted non-semantic tags (<div>, <span>) into semantic HTML elements (<header>, <main>, <nav>, <footer>).
+- Converted non-semantic tags (<div>, <span>) into semantic HTML elements (<header>, <main>, <aside>, <nav>, <footer>).
 - Improved accessibility by giving the document meaningful structure.
 - Cleaned up the CSS by removing redundancy and repeated selectors.
 - Organized the stylesheets with comments and logical sectioning. 
