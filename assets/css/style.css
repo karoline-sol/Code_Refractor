@@ -8,7 +8,7 @@ body {
   background-color: #000000;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -16,16 +16,13 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
-  color: #ffcc02;
-}
 
-.header div {
+header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,11 +30,9 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
-  list-style-type: none;
-}
 
-.header div ul li {
+header nav ul li {
+  list-style: none;
   display: inline-block;
   margin-left: 25px;
 }
@@ -189,7 +184,7 @@ p {
   font-size: 36px;
 }
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
