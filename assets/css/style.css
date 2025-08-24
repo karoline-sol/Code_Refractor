@@ -55,20 +55,32 @@ p {
   background-position: center;
 }
 
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
 .float-left {
   float: left;
   margin-right: 25px;
+  max-height: 200px;
 }
 
 .float-right {
   float: right;
   margin-left: 25px;
+  max-height: 200px;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+.info {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #404040;
+  color: #ffffff;
 }
 
 .items {
@@ -82,107 +94,29 @@ p {
   background-color: #404040;
 }
 
-.item-golden-sun {
+.sidebar {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.item-frostbite-chest {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.item-mystic-chest {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.item-golden-sun h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.item-frostbite-chest h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.item-mystic-chest h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.item-golden-sun img {
+.sidebar img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.item-frostbite-chest img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.item-mystic-chest img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
 
-#dragons {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #404040;
-  color: #ffffff;
-}
-
-#humans {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #404040;
-  color: #ffffff;
-}
-
-#locations {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #404040;
-  color: #ffffff;
-}
-
-#dragons img {
-  max-height: 200px;
-}
-
-#humans img {
-  max-height: 200px;
-}
-
-#locations img {
-  max-height: 200px;
-}
-
-#dragons h2 {
+h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-#humans h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-#locations h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 
 footer {
   padding: 30px;
